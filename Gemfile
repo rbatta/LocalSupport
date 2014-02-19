@@ -4,7 +4,7 @@ ruby '1.9.3'
 gem 'rails', '3.2.14'
 gem 'pg'
 gem 'devise', '3.0.3'
-gem 'heroku-api'
+#gem 'heroku-api'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -33,7 +33,7 @@ group :test do
   gem 'cucumber-rails', :require => false
   gem 'cucumber-rails-training-wheels'
   gem 'minitest', '~> 4.7.1'
-  gem 'ZenTest'
+  gem 'ZenTest', '4.8.3'
   gem 'capybara', '2.0.2'
   gem "capybara-webkit", "~> 1.0.0"
   gem 'webrat'
@@ -83,7 +83,7 @@ gem 'therubyracer'
 gem 'gmaps4rails'
 #gem 'mongrel'
 gem 'kaminari'
-gem 'unicorn'
+#gem 'unicorn'
 
 # To use markdown in editing static pages
 gem 'redcarpet'
